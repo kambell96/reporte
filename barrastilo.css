@@ -1,0 +1,67 @@
+html{
+    box-sizing: border-box
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+  padding: 20px 0;
+}
+#contenedor{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navegacion{
+    background-color: rgba(252, 76, 76, 0.808);
+
+}
+nav{
+    width: 1200px;
+    margin: 0;
+    position: relative;
+        
+}
+nav ul{
+    list-style: none;
+}
+nav > ul >li {
+    float: left;
+}
+nav ul::after{
+    content: " ";
+    display: block;
+    clear: both;
+
+}
+nav ul li a{
+    display: inline-block;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+nav ul li a:hover{
+    background-color: rgb(219, 84, 120);
+
+}
+/** aqui meto las listas dentro de la barra con el display none que
+me ayuda a ocultar los elementos ul **/
+nav ul ul {
+    position: absolute;
+    top: 100%;
+    background-color: pink;
+    display: none;
+}/** aca ye les pongo el top y display none para ocultarlos **/
+
+nav ul li:hover > ul{
+    display: inline;
+}/** aqui ya me aparecen al poner el raton pero no los puedo seleccionar **/
+nav ul li:hover{
+    background-color: rgb(243, 91, 119);
+}
+
