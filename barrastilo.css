@@ -1,0 +1,112 @@
+html{
+    box-sizing: border-box
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+  padding: 20px 0;
+}
+#contenedor{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#navegacion{
+    width: auto;
+    margin: 0 auto;
+    background-color: rgb(12, 115, 233);
+  
+    
+}
+nav li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    font-size: 20px;
+}/**aqui acomodo el tamaño separacion de la barra y le pongo relative que le doy al padre 
+para poder poner absolute en el despliegue y quede debajo de la barra*/
+
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px ;
+}
+nav li:hover{
+    
+    transition: all 1s;
+    background-color: rgb(0, 153, 255);
+    
+}
+nav li.menu:hover{
+    background-color: rgb(15, 158, 224);
+  
+}
+
+
+/** aqui para desplegar el menu **/
+nav ul ul  {
+    width: 100%;
+    display: none;
+    position: absolute;
+    background: rgb(12, 124, 172);
+    right: 0;
+    top: 100%;
+}/** aqui acomodo la barra despegables que al ponerle absolute me la posiciona debajo 
+de la barra y pongo display none para ocultar lam lista con los enlaces
+*/
+nav li:hover ul {
+    display: block;
+}
+/*article*/
+#contenido{
+    
+display: inline-block
+}
+    
+#contenido h2{
+    color:rgb(51, 170, 250);
+}
+#contenido main{
+    margin: 40px 50px;
+    
+}
+#contenido img{
+        
+    width: 300px;
+       
+}
+#contenido p{
+        
+ width: 450px;
+        
+}
+    
+#contenido a{
+    display: block;
+}
+.boton{
+    background-color: rgb(51, 170, 250);
+    padding: 10px 30px;
+    width: 143px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 16px
+}
+.boton:hover{
+    background-color: rgb(7, 113, 212);
+     transition: all 1s;
+}
+/** fin article */
+    
