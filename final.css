@@ -1,0 +1,202 @@
+html{
+    box-sizing: border-box
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px 0;
+  }
+#contenedor{
+      width: 1020px;
+      margin: 0 auto;
+}
+div.caja-p{
+    width: 1016px;
+    margin: 0 auto;
+}
+  
+#navegacion{
+    width: auto;
+    margin: 0 auto;
+     background-color: rgb(12, 115, 233);
+}
+nav li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    width: 200px
+}
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px ;
+}
+nav li:hover{
+    color: black;
+    transition: all 1s;
+    background-color: rgb(0, 153, 255);
+    
+}
+nav li.menu:hover{
+    background-color: rgb(15, 158, 224);
+  
+}
+/** aqui para desplegar el menu **/
+nav ul ul  {
+    width: 100%;
+    display: none;
+    position: absolute;
+    background: rgb(12, 124, 172);
+    right: 0;
+    top: 100%;
+}/** aqui acomodo la barra despegables que al ponerle absolute me la posiciona debajo de la barra */
+nav li:hover ul {
+    display: block;
+}
+/**article**/
+article{
+    height: 250px;
+}
+#contenido{
+    
+    display: inline-block
+}
+    
+#contenido h2{
+    color:rgb(51, 170, 250);
+}
+ main{
+    margin: 22px 54px;
+    width: 58%;
+    padding-right: 60px;
+    height: 220px;
+    
+}
+#contenido  img{
+    margin-right: 30px;   
+    width: 300px;
+    margin-left: -19px;   
+}
+#contenido  p{
+    position: relative;
+    left: 298px;
+    top: -180px;   
+    width: 450px;
+        
+}
+    
+#contenido div a{
+    display: block;
+}
+.caja-boton a{
+    background-color: rgb(51, 170, 250);
+    padding: 10px 30px;
+    width: 143px;
+    margin-top: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 16px
+ 
+}
+.caja-boton a:hover{
+        background-color: rgb(7, 113, 212);
+        transition: all 1s;
+}
+.caja-boton{
+    position: relative;
+    bottom: 178px;
+}
+/** otros post **/
+aside h2
+{
+    color: rgb(51, 170, 250);
+    text-transform: uppercase;
+    font-size: 20px;
+   
+}
+aside .centro{
+    text-align: center;
+    width: 156%;
+}
+aside {
+    text-align: right;
+    padding: 16px;
+    margin-left: 684px;
+    width: 30%;
+    margin-top: 70px;
+    position: relative;
+    bottom: 490px
+
+}
+aside ul  {
+    list-style: none;
+    
+}
+aside ul li {
+    padding: 10px;
+    padding-left: 190px;
+}
+aside ul li a {
+    color: rgb(51, 170, 250);
+    text-decoration: none;
+}
+aside ul li a:hover{
+    background-color: rgb(51, 170, 250);
+    color: white;
+    padding: 5px;
+}
+aside p {
+    text-align: justify;
+    padding-left: 130px;
+}
+
+/** footer **/
+/** foooter pie de paguina **/
+footer{
+    background-color:  rgb(12, 115, 233);
+    padding-top: 40px;
+    margin-top: 20px;
+    text-align: center;
+   
+}
+footer nav li{
+    
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+   
+}
+
+footer nav li a {
+    
+    color: white;
+    text-decoration: none;
+   
+    
+}
+footer nav li:hover{
+    color: black;
+    transition: all 1s;
+    background-color: rgb(0, 153, 255);
+    
+}
+
+.copyright{
+    color: white;
+}
+.contenedor{
+    margin-top: -21px;
+}
+

@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(226, 44, 226)
+}
+.logo{
+    margin-left: 113px;
+    margin-top: 50px;
+}
+.img{
+    background-color: blue;
+    height: 285px;
+    width: 96%;
+    margin: 10px 10px;
+    position: relative;
+    right: 195px;
+    margin-top: 20px;
+}
+.caja-p{
+    padding-left: 360px;
+}
+.caja1,.caja2{
+    display: inline-block;
+    background-color: red;
+    height: 300px;
+    width: 100px ;
+    margin:10px 10px;  
+    padding: 0px 150px;
+    position: relative;
+    right: 195px;
+   
+}
+
+.caja3,.caja4{
+    display: inline-block;
+    background-color: red;
+    height: 300px;
+    width: 100px ;
+    margin:10px 10px;  
+    padding: 0px 150px;
+    position: relative;
+    right: 195px;
+}
+.caja5,.caja6{
+    display: inline-block;
+    background-color: red;
+    height: 300px;
+    width: 100px ;
+    margin:10px 10px;  
+    padding: 0px 150px;
+    position: relative;
+    right: 195px;
+}
+.caja7,.caja8{
+    display: inline-block;
+    background-color: red;
+    height: 300px;
+    width: 100px ;
+    margin:10px 10px;  
+    padding: 0px 150px;
+    position: relative;
+    right: 195px;
+}
+.caja2,.caja4,.caja6,.caja8 {
+    margin-left: 165px;
+}
+.caja1,.caja3,.caja5,.caja7 {
+    margin-left: 50px;
+}
+
